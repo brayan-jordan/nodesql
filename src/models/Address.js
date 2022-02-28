@@ -7,7 +7,7 @@ class Address extends Model {
             street: DataTypes.STRING, 
             number: DataTypes.INTEGER,
         }, {
-            sequelize
+            sequelize,
         })
     }
 
